@@ -92,7 +92,7 @@ def change_status(pagename):
         print page
 
 
-	logging.info("Editing " + "https://ta.wikisource.org/wiki/"+page.title)
+	logging.info("Editing " + "https://bn.wikisource.org/wiki/"+page.title)
 	content =  page.getWikiText()
 
 	
